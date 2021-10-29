@@ -1,0 +1,53 @@
+.header{
+    height: 123px;
+    background-color: aqua;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3px;
+ }
+ 
+ .navbar{
+   height: 70px;
+    background-color: #3cff00;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3px;
+ }
+ 
+ 
+ .footer{
+   height: 123px;
+   background-color: blue;
+   font-size: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .parent{
+     display: flex;
+     flex-direction: row; 
+     margin-bottom: 3px;  
+ }
+ .child1{
+     background-color: brown;
+     width:35%;
+     height:58vh;
+     font-size: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .child2{
+     background-color: burlywood;
+     width:65%;
+     height:58vh;
+     font-size: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-left: 3px;
+ }
